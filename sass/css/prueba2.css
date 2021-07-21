@@ -1,0 +1,79 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+.coloraccordion {
+  background-color: black; }
+
+.navLogo {
+  width: 12%; }
+
+.imagenFondo {
+  background-image: url(../../imagenes/fondo-frutos-secos-1.jpg); }
+
+.imagenredes {
+  height: 30px;
+  width: 30px; }
+
+.tamañocarusel {
+  width: 270px;
+  margin: auto; }
+
+.footer {
+  margin: 20px;
+  padding: 20px; }
+  .footer .footer__color-fondo {
+    background-color: black; }
+  .footer .footer__texto {
+    color: blanchedalmond; }
+
+.header * {
+  margin: 0;
+  padding: 0; }
+
+.header .coloraccordion {
+  background-color: black; }
+
+.header .header__imagen-fondo {
+  background-image: url(../../imagenes/fondo-frutos-secos-1.jpg); }
+
+.header .header__texto {
+  color: blanchedalmond; }
+
+.iconos * {
+  margin: 0;
+  padding: 0; }
+
+.iconos .coloraccordion {
+  background-color: black; }
+
+.iconos .iconos__imagen {
+  height: 20px;
+  width: 20px;
+  align-content: center; }
+
+.iconos .iconos__texto {
+  color: blanchedalmond;
+  text-align: center; }
+
+p1 {
+  font-size: 2em; }
+
+p2 {
+  font-size: 3em; }
+
+p3 {
+  font-size: 4em; }
+
+p4 {
+  font-size: 5em; }
+
+p5 {
+  font-size: 6em; }
+
+p6 {
+  font-size: 7em; }
+
+p {
+  border: 1px solid; }

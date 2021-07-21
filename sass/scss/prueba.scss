@@ -1,0 +1,75 @@
+@import "generales";
+
+@import "menu";
+@import "variables";
+
+.imagenFondo{
+    background-image: url(../../imagenes/fondo-frutos-secos-1.jpg);
+}
+.imagenredes{
+    height: 30px;
+    width: 30px;
+}
+.tamañocarusel{
+    width: 270px;
+    margin: auto;
+}
+// bem footer//
+.footer{
+    margin: 20px;
+    padding: 20px;
+    .footer__color-fondo{
+        background-color: $negro; 
+    }
+    .footer__texto{
+        color: blanchedalmond;
+    }
+
+}
+// bem header Productos.html//
+.header{
+    @import "generales";
+    .header__imagen-fondo{
+        background-image: url(../../imagenes/fondo-frutos-secos-1.jpg);
+    }
+    .header__texto{
+        color: blanchedalmond;
+    }
+
+}
+
+// bem iconos contacto.html//
+.iconos{
+    @import "generales";
+    .iconos__imagen{
+        height: 20px;
+        width: 20px;
+        align-content: center;
+    }
+    .iconos__texto{
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+}
+
+//funcion for para headings prueba//
+
+@for $i from 1 through 6 {
+    p#{$i} {
+        font-size: $i + 1em;
+
+    }
+}
+p {
+    @if 1 + 1 == 2 { border: 1px solid;  }
+    @if 5 < 3      { border: 2px dotted; }
+    @if null       { border: 3px double; }
+  }
+  
+
+
+
+
+
+

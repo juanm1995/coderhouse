@@ -1,0 +1,34 @@
+h1{
+    background-color: black;
+    text-align: center
+    font-size 3em
+}
+
+h2 {
+    text-decoration-color: black;
+
+}
+p{
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-decoration: black;
+    
+}
+.seccion1 {
+    background-color: black
+
+}
+
+.seccion2 {
+    background-color: green
+
+}
+
+.seccion3{
+
+    background-color: blanchedalmond
+
+}
+
+
+

@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navLogo{
+    
+    width:12%;
+}
+.imagenFondo{
+    background-image: url(imagenes/fondo-frutos-secos-1.jpg);
+}
+.imagenredes{
+    height: 30px;
+    width: 30px;
+}
+.tamañocarusel{
+    width: 400px;
+    margin: auto;
+}
+.accordion-flush{
+    background-color:black;
+
+}
