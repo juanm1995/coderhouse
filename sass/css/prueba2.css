@@ -6,6 +6,27 @@
 .coloraccordion {
   background-color: black; }
 
+.gridContenedor {
+  padding: 20px;
+  display: grid;
+  block-size: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(205, 1fr));
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "gridHeader redes" "seccionUno redes" "footer footer"; }
+
+.gridHeader {
+  grid-area: gridHeader; }
+
+.gridSeccionuno {
+  grid-area: seccionUno; }
+
+.redes {
+  grid-area: redes;
+  margin-left: 50px; }
+
+.footer {
+  grid-area: footer; }
+
 .navLogo {
   width: 12%; }
 
@@ -35,6 +56,27 @@
 .header .coloraccordion {
   background-color: black; }
 
+.header .gridContenedor {
+  padding: 20px;
+  display: grid;
+  block-size: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(205, 1fr));
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "gridHeader redes" "seccionUno redes" "footer footer"; }
+
+.header .gridHeader {
+  grid-area: gridHeader; }
+
+.header .gridSeccionuno {
+  grid-area: seccionUno; }
+
+.header .redes {
+  grid-area: redes;
+  margin-left: 50px; }
+
+.header .footer {
+  grid-area: footer; }
+
 .header .header__imagen-fondo {
   background-image: url(../../imagenes/fondo-frutos-secos-1.jpg); }
 
@@ -47,6 +89,27 @@
 
 .iconos .coloraccordion {
   background-color: black; }
+
+.iconos .gridContenedor {
+  padding: 20px;
+  display: grid;
+  block-size: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(205, 1fr));
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "gridHeader redes" "seccionUno redes" "footer footer"; }
+
+.iconos .gridHeader {
+  grid-area: gridHeader; }
+
+.iconos .gridSeccionuno {
+  grid-area: seccionUno; }
+
+.iconos .redes {
+  grid-area: redes;
+  margin-left: 50px; }
+
+.iconos .footer {
+  grid-area: footer; }
 
 .iconos .iconos__imagen {
   height: 20px;
