@@ -1,0 +1,142 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+.coloraccordion {
+  background-color: black; }
+
+.gridContenedor {
+  padding: 20px;
+  display: grid;
+  block-size: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(205, 1fr));
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "gridHeader redes" "seccionUno redes" "footer footer"; }
+
+.gridHeader {
+  grid-area: gridHeader; }
+
+.gridSeccionuno {
+  grid-area: seccionUno; }
+
+.redes {
+  grid-area: redes;
+  margin-left: 50px; }
+
+.footer {
+  grid-area: footer; }
+
+.navLogo {
+  width: 12%; }
+
+.imagenFondo {
+  background-image: url(../../imagenes/fondo-frutos-secos-1.jpg); }
+
+.imagenredes {
+  height: 30px;
+  width: 30px; }
+
+.tamañocarusel {
+  width: 270px;
+  margin: auto; }
+
+.footer {
+  margin: 20px;
+  padding: 20px; }
+  .footer .footer__color-fondo {
+    background-color: black; }
+  .footer .footer__texto {
+    color: blanchedalmond; }
+
+.header * {
+  margin: 0;
+  padding: 0; }
+
+.header .coloraccordion {
+  background-color: black; }
+
+.header .gridContenedor {
+  padding: 20px;
+  display: grid;
+  block-size: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(205, 1fr));
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "gridHeader redes" "seccionUno redes" "footer footer"; }
+
+.header .gridHeader {
+  grid-area: gridHeader; }
+
+.header .gridSeccionuno {
+  grid-area: seccionUno; }
+
+.header .redes {
+  grid-area: redes;
+  margin-left: 50px; }
+
+.header .footer {
+  grid-area: footer; }
+
+.header .header__imagen-fondo {
+  background-image: url(../../imagenes/fondo-frutos-secos-1.jpg); }
+
+.header .header__texto {
+  color: blanchedalmond; }
+
+.iconos * {
+  margin: 0;
+  padding: 0; }
+
+.iconos .coloraccordion {
+  background-color: black; }
+
+.iconos .gridContenedor {
+  padding: 20px;
+  display: grid;
+  block-size: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(205, 1fr));
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "gridHeader redes" "seccionUno redes" "footer footer"; }
+
+.iconos .gridHeader {
+  grid-area: gridHeader; }
+
+.iconos .gridSeccionuno {
+  grid-area: seccionUno; }
+
+.iconos .redes {
+  grid-area: redes;
+  margin-left: 50px; }
+
+.iconos .footer {
+  grid-area: footer; }
+
+.iconos .iconos__imagen {
+  height: 20px;
+  width: 20px;
+  align-content: center; }
+
+.iconos .iconos__texto {
+  color: blanchedalmond;
+  text-align: center; }
+
+p1 {
+  font-size: 2em; }
+
+p2 {
+  font-size: 3em; }
+
+p3 {
+  font-size: 4em; }
+
+p4 {
+  font-size: 5em; }
+
+p5 {
+  font-size: 6em; }
+
+p6 {
+  font-size: 7em; }
+
+p {
+  border: 1px solid; }

@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+.coloraccordion{
+    background-color: black;
+}
+
+
+.gridContenedor{
+    padding: 20px;
+    display:grid;
+    block-size: 200px;
+    grid-template-columns: repeat(auto-fit,minmax(205, 1fr));
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "gridHeader redes"
+    "seccionUno redes"
+    "footer footer";
+}
+
+.gridHeader{
+    grid-area: gridHeader;
+
+}
+
+
+.gridSeccionuno{
+    grid-area: seccionUno;
+}
+
+.redes {
+    grid-area: redes;
+    margin-left: 50px;
+}
+
+.footer {
+    grid-area: footer;
+}
